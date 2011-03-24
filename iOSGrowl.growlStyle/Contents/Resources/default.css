@@ -1,0 +1,72 @@
+* {
+		font-family: "Helvetica Neue", Helvetica, sans-serif;
+		color: rgba(255,255,255,0.95);
+		text-shadow: 0 -1px 1px #000;
+		font-size: 14px;
+		-webkit-font-smoothing: antialiased;
+}
+
+#popup {
+		width: 324px;
+}
+
+.content {
+		min-height: 48px;
+		background: url(images/middle.png);
+
+}
+
+#gradient {
+		height: 70px;
+		width: 320px;	
+		background: url(images/gradient.png);		
+		position: absolute;
+		margin: -8px 0 0 3px;
+}
+
+#gloss {
+		width: 318px;
+		height: 27px;
+		background: url(images/gloss.png);		
+		position: absolute;
+		margin: -8px 0 0 3px;
+}
+
+#top {
+		height: 10px;
+		background: url(images/top.png);		
+}
+
+#bottom {
+		height: 13px;
+		background: url(images/bottom.png);		
+}
+
+#icon, #title, #text {
+		position: relative;
+}
+
+#icon {
+		float: left;
+		margin: 0 15px 0 12px;
+}
+
+#icon img {
+		width: 48px;
+		height: 48px;
+}
+
+#title {
+		font-weight: bolder;
+		position: relative;
+		top: 4px;
+}
+
+#text {
+		font-size: 12px;
+		position: relative;
+		top: 10px;
+		line-height: 16px;
+		padding: 0 16px 16px 0;
+		overflow: hidden;
+}
