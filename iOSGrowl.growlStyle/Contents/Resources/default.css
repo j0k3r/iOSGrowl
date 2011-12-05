@@ -1,78 +1,78 @@
 * {
-		font-family: "Helvetica Neue", Helvetica, sans-serif;
-		color: rgba(255,255,255,0.95);
-		text-shadow: 0 -1px 1px #000;
-		font-size: 14px;
-		-webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: rgba(255,255,255,0.95);
+  text-shadow: 0 -1px 1px #000;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
 }
 
 #popup {
-		width: 354px;
+  width: 354px;
 }
 
 .content {
-		min-height: 50px;
-		background: url(images/middle.png);
-		padding-right: 16px;
+  min-height: 50px;
+  background: url(images/middle.png);
+  padding-right: 16px;
 
 }
 
 #gradient {
-		height: 70px;
-		width: 350px;	
-		background: url(images/gradient.png);		
-		position: absolute;
-		margin: -8px 0 0 3px;
+  height: 70px;
+  width: 350px;
+  background: url(images/gradient.png);
+  position: absolute;
+  margin: -8px 0 0 3px;
 }
 
 #gloss {
-		width: 348px;
-		height: 27px;
-		background: url(images/gloss.png);		
-		position: absolute;
-		margin: -8px 0 0 3px;
+  width: 348px;
+  height: 27px;
+  background: url(images/gloss.png);
+  position: absolute;
+  margin: -8px 0 0 3px;
 }
 
 #top {
-		height: 10px;
-		background: url(images/top.png);		
+  height: 10px;
+  background: url(images/top.png);
 }
 
 #bottom {
-		height: 13px;
-		background: url(images/bottom.png);		
+  height: 13px;
+  background: url(images/bottom.png);
 }
 
 #icon, #title, #text {
-		position: relative;
+  position: relative;
 }
 
 #icon {
-		float: left;
-		margin: 0 16px 0 12px;
+  float: left;
+  margin: 0 16px 0 12px;
 }
 
 #icon img {
-		width: 48px;
-		height: 48px;
-		-webkit-border-radius: 4px;
+  width: 48px;
+  height: 48px;
+  -webkit-border-radius: 4px;
 }
 
 #title {
-		font-weight: bolder;
-		position: relative;
-		top: 4px;
+  font-weight: bolder;
+  position: relative;
+  top: 4px;
 }
 
 #text {
-		font-size: 13px;
-		position: relative;
-		top: 10px;
-		line-height: 16px;
-		overflow: hidden;
-		white-space: nowrap;
+  font-size: 13px;
+  position: relative;
+  top: 10px;
+  line-height: 16px;
+  overflow: hidden;
+  padding-bottom: 10px;
 }
 
 #text p {
-		margin-bottom: 16px;
+  margin-bottom: 16px;
 }
